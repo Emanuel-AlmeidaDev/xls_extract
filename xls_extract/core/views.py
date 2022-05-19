@@ -11,7 +11,6 @@ def home(request):
 def upload_file(request):
 
     file = File(request.FILES['xls'])
-    print(file)
     xls = Spreadsheet.from_xls(
         file.open().read(), Viewport(request.POST['range']))
 
