@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from xls_extract.core.views import home
+from xls_extract.core.views import home, upload_file
 
 urlpatterns = [
-    path('', home),
+    path('', home, name="home"),
     path('admin/', admin.site.urls),
+    path('upload-file/', upload_file, name="upload_file"),
 ]
