@@ -14,11 +14,12 @@
       <li>Deploy: A aplicação foi disponibiliza para uso através do heroku</li>
   </u>
   
-  ### ✅ Funcionalidades
+  ###  Funcionalidades
 
-- [x] Aplicação Front-End com formulário para upload do arquivo
+✅ Aplicação Front-End com formulário para upload do arquivo
 - [ ] Pré-visualização do arquivo, escolhas de colunas e definição do range
 - [ ] Opções de download e formato 
+- [ ] Front-end da aplicação 
   
   ### Como usar?
     ...Em desenvolvimento
